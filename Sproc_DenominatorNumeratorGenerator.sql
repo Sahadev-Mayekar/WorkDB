@@ -25,7 +25,7 @@ BEGIN
 							
 							SELECT @DeclareSet =
 								(
-								SELECT [Parameters] + ' ' +  ISNULL(Value,'NULL') + ',' 
+								SELECT [Parameters] + ' ' + ParamterDataType + ' = ' +  ISNULL(Value,'NULL') + ',' 
 								FROM MeasureConditionValues InnerMCV
 								WHERE MeasureID = @MinParamNo AND ParamterType = @DenomType
 								Order BY measureid
