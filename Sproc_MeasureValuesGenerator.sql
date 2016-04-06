@@ -15,7 +15,7 @@ CREATE PROCEDURE [dbo].[MeasureValuesGenerator]
 AS
 BEGIN
 -- =============================================
--- Author:		Sahadev Mayekar.
+-- Author:		Sahadev Mayekar..
 -- Create date: 5-April-2016
 -- Description:	This procedure helps in generating parameters that are required to run Stored Procedures to execute measures
 -- =============================================
